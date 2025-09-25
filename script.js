@@ -10,8 +10,8 @@ for(let i=0;i<800;i++){
 		sq.style.backgroundColor = color;
 	})
 
-	sq.addEventListener('mouseleave' , ()=>{
-			sq.style.backgroundColor = '#333'
+	sq.addEventListener('mouseout' , ()=>{
+			sq.style.backgroundColor = 'rgb(29, 29, 29)';
 	})
 	allSquares.appendChild(sq);
 }
